@@ -1,10 +1,17 @@
+/*In CSS  best way to write property is to write in alphabatical style  way.*/
 body {
 	background-color: #e8f8f5;
 }
 hr {
 	border-style: none;
 	border-top: dotted;
-	border-color: white;
+	border-color: rgb(196, 196, 196);
 	border-width: 10px;
 	width: 10%;
+}
+h1{
+	color: #66bfbf;
+}
+h3{
+	color: #66bfbf;
 }
