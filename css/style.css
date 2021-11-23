@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	text-align: center;
+	font-family: "Merriweather", serif;
+}
+/**********Heading***********/
+h1 {
+	font-size: 5.625rem; /* For Dynamic Font Size use this : 1em = 100% = 16px, For ex. 90px = 5.625em| Defining in px give static font size so whatever zoom you do font will not change.*/
+	margin: 50px auto 0 auto;
+	font-family: "Sacramento", cursive;
+	color: #66bfbf;
+}
+h2 {
+	font-size: 2.5rem;
+	font-family: "Montserrat", sans-serif;
+	color: #66bfbf;
+	font-weight: bold;
+}
+.web {
+	text-decoration: underline dotted;
+}
+h3 {
+	font-family: "Montserrat", sans-serif;
+	color: #11999e;
+}
+a {
+	color: #11999e;
+}
+hr {
+	border-style: none;
+	border-top: dotted;
+	border: color #eaf6f6;
+	border-width: 10px;
+	width: 10%;
+}
+
+/**********Container***********/
+.top-container {
+	background-color: #e4f9f5;
+	position: relative;
+	padding-top: 100px;
+}
+
+.skill-row {
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+
+.bottom-container {
+	background-color: #e4f9f5;
+	padding-top: 50px;
+}
+.top-cloud {
+	position: absolute;
+	right: 300px;
+	top: 50px;
+}
+.bottom-cloud {
+	position: absolute;
+	left: 300px;
+	bottom: 300px;
+}
+.profile {
+	width: 50%;
+	margin: 50px auto;
+	text-align: center;
+	line-height: 2;
+}
+.description {
+	width: 50%;
+	margin: auto;
+}
+.contact-me {
+	margin: 100px auto;
+	line-height: 2;
+}
+/**********Footer***********/
+.footer-link {
+	line-height: 3;
+	width: 50%;
+	padding: auto;
+}
+.navigationSpace {
+	margin-left: 30px;
+}
+/*********Image***********/
+
+.coding {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+}
+.camera {
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+}
+/**********Button***********/
+.btn {
+	background: #11cdd4;
+	background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+	background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: #30e3cb;
+	background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+	text-decoration: none;
+}
