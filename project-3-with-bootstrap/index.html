@@ -68,19 +68,19 @@
 						<ul class="navbar-nav ml-auto">
 							<!--Ml auto, auto align what is inside to left side of screen-->
 							<li class="nav-item">
-								<a class="nav-link" href="">Contact</a>
+								<a class="nav-link" href="#footer">Contact</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="">Pricing</a>
+								<a class="nav-link" href="#pricing">Pricing</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="">Download</a>
+								<a class="nav-link" href="#cta">Download</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
 
-				<!-- Title -->
+				<!-- Title Section-->
 				<div class="row">
 					<!-- Column are divided into 12 parts in bootstrap and scale as lg, md, and sm for device-width -->
 					<div class="col-lg-6" id="left-part">
@@ -272,15 +272,31 @@
 		<!-- Call to Action -->
 
 		<section id="cta">
-			<h3>Find the True Love of Your Dog's Life Today.</h3>
-			<button type="button">Download</button>
-			<button type="button">Download</button>
+			<h3 id="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+			<div>
+							<button id="my-btn" class="btn btn-dark btn-lg" type="button">
+								<i class="fab fa-apple"></i> Download
+							</button>
+							<button
+								id="my-btn"
+								class="btn btn-outline-light btn-lg"
+								type="button"
+							>
+								<i class="fab fa-google-play"></i> Download
+							</button>
+						</div>
 		</section>
 
 		<!-- Footer -->
 
 		<footer id="footer">
-			<p>© Copyright 2018 TinDog</p>
+			<p><a href="#"><i class="fab fa-twitter social-icon"></i></a>
+			<a href="#"><i class="fab fa-facebook social-icon"></i></a>
+			<a href="#"><i class="fab fa-whatsapp social-icon"></i></a>
+			<a href="#"><i class="fab fa-instagram social-icon"></i></a>
+			<a href="#"><i class="fas fa-envelope social-icon"></i></a></p>
+			<p>© Copyright 2021 TinDog (Sarvesh Mishra)</p>
 		</footer>
 	</body>
 </html>
+
