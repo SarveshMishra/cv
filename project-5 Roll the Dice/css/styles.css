@@ -1,0 +1,60 @@
+body {
+	text-align: center;
+	background-color: bisque;
+}
+p {
+	font-size: 2rem;
+	color: #4ecca3;
+	font-family: "Indie Flower", cursive;
+}
+
+img {
+	width: 80%;
+}
+
+footer {
+	margin-top: 5%;
+	color: #000;
+	text-align: center;
+	font-family: "Indie Flower", cursive;
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+.dice {
+	text-align: center;
+	display: inline-block;
+}
+
+.heading {
+	margin: 30px;
+	text-shadow: 5px 0 #232931;
+	font-size: 5rem;
+	color: #4ecca3;
+	font-family: "Yuji Hentaigana Akebono", cursive;
+}
+.win-text {
+	margin: 30px;
+	text-shadow: 5px 0 #232931;
+	font-size: 3rem;
+	color: #4ecca3;
+	font-family: "Yuji Hentaigana Akebono", cursive;
+}
+.player_name {
+	margin: 2%;
+	font-size: 2rem;
+	font-family: "Nunito Sans", sans-serif;
+}
+
+.btn {
+	font-size: 2rem;
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 600;
+}
+.image {
+	margin: 2%;
+}
