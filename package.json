@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "My Personal Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarveshMishra/cv.git"
+  },
+  "author": "Sarvesh Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarveshMishra/cv/issues"
+  },
+  "homepage": "https://github.com/SarveshMishra/cv#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
